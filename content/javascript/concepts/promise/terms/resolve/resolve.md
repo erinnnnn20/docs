@@ -66,3 +66,14 @@ outerPromise
 
 // Output: Success!
 ```
+
+## Codebyte Example
+
+Resolving an array with Promise values:
+
+```codebyte/javascript
+const arrayResolve = Promise.resolve(['wood', 'aluminum', 'steel']);
+arrayResolve.then((value) => {
+  console.log(`material: ${value[0]}`);
+});
+```
